@@ -47,6 +47,7 @@ class power{
             product *=product * x;
         }
 
+        // Handling for negative powers
         if(n < 0){
             product = 1/product;
         }
